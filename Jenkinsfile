@@ -16,4 +16,8 @@ node {
         echo "staging"
         sleep 4
     }
+    stage ('production') {
+        echo "production"
+        sleep 5
+    }
 }
